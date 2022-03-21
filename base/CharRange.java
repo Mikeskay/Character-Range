@@ -24,7 +24,7 @@ public class CharRange {
 
     public boolean isRoman(){
 
-        if (input == 'M'|| input == 'D'|| input == 'C' ||input == 'L' ||input == 'V' ||input == 'I'){
+        if (input == 'M'|| input == 'm'|| input == 'D'|| input == 'd'|| input == 'C' ||input == 'c'|| input == 'L' || input == 'l'|| input == 'V'|| input == 'v'|| input == 'I' || input == 'i' ){
     
             return true;
         }
